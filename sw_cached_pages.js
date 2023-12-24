@@ -2,6 +2,7 @@ const cacheName = 'v1';
 
 const cacheAsset = [
   'index.html',
+  'offline.html',
   '/css/style.css',
   '/js/script.js'
 ];

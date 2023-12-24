@@ -112,8 +112,10 @@ if ('serviceWorker' in navigator) {
 function checkOnlineStatus() {
       if (navigator.onLine) {
        alert('You are online!');
+
       } else {
         alert('You are offline!');
+        window.location.href = "https://mundzir77.github.io/memory-game-cache-ssm4u-version-2/offline";
       }
     }
 
