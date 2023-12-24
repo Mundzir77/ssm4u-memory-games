@@ -109,9 +109,20 @@ if ('serviceWorker' in navigator) {
         .catch(err => console.log (`Service Worker: Error: ${err}`));
     })
    }
- window.addEventListener('offline', function(e) { 
-    alert('offline'); 
-  });
+function checkOnlineStatus() {
+      if (navigator.onLine) {
+       alert('You are online!');
+      } else {
+        alert('You are offline!');
+      }
+    }
+
+    // Check online status initially
+    checkOnlineStatus();
+
+    // Listen for online/offline events
+    window.addEventListener('online', checkOnlineStatus);
+    window.addEventListener('offline', checkOnlineStatus);
 
 
 
