@@ -110,7 +110,7 @@ if ('serviceWorker' in navigator) {
     })
    }
  window.addEventListener('offline', function(e) { 
-    console.log('offline'); 
+    alert('offline'); 
   });
 
 
