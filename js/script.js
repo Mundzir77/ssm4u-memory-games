@@ -109,7 +109,9 @@ if ('serviceWorker' in navigator) {
         .catch(err => console.log (`Service Worker: Error: ${err}`));
     })
    }
-
+ window.addEventListener('offline', function(e) { 
+    console.log('offline'); 
+  });
 
 
 
