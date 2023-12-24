@@ -1,17 +1,14 @@
 
     function checkOnlineStatus() {
-
-        switch (navigator.onLine) {
-            case 0:
-                alert('You are online!');
-                window.location.href = "https://mundzir77.github.io/ssm4u-memory-games/index.html";
-              break;
-            case 1:
-                alert('You are offline!');
-                window.location.href = "https://mundzir77.github.io/ssm4u-memory-games/offline.html";
-              break;
-        }
         
+        if (navigator.onLine) {
+         
+            window.location.replace("https://mundzir77.github.io/ssm4u-memory-games/index.html");
+         
+        } else {
+          
+            window.location.replace("https://mundzir77.github.io/ssm4u-memory-games/offline.html");
+        }
       }
   
       // Check online status initially
