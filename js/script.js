@@ -109,22 +109,7 @@ if ('serviceWorker' in navigator) {
         .catch(err => console.log (`Service Worker: Error: ${err}`));
     })
    }
-function checkOnlineStatus() {
-      if (navigator.onLine) {
-       alert('You are online!');
 
-      } else {
-        alert('You are offline!');
-        window.location.href = "https://mundzir77.github.io/ssm4u-memory-games/offline.html";
-      }
-    }
-
-    // Check online status initially
-    checkOnlineStatus();
-
-    // Listen for online/offline events
-    window.addEventListener('online', checkOnlineStatus);
-    window.addEventListener('offline', checkOnlineStatus);
 
 
 
