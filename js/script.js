@@ -115,7 +115,7 @@ function checkOnlineStatus() {
 
       } else {
         alert('You are offline!');
-        window.location.href = "https://mundzir77.github.io/memory-game-cache-ssm4u-version-2/offline";
+        window.location.href = "https://mundzir77.github.io/ssm4u-memory-games/offline.html";
       }
     }
 
