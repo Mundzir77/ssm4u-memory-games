@@ -279,26 +279,39 @@
     <script src="js/script.js"></script>
 
     <script>
-    function checkOnlineStatus() {
 
-        
-        
-      if (navigator.onLine) {
+if (navigator.onLine) {
        
-          window.location.replace("https://mundzir77.github.io/ssm4u-memory-games/index.html");
-          
-      } else {
+       window.location.replace("https://mundzir77.github.io/ssm4u-memory-games/index.html");
+       
+   }
+
+
+   if (navigator.offline) {
+       
+       window.location.replace("https://mundzir77.github.io/ssm4u-memory-games/index.html");
+       
+   }
+    // function checkOnlineStatus() {
+
         
-        window.location.replace("https://mundzir77.github.io/ssm4u-memory-games/offline.html");
-      }
-    }
+        
+    //   if (navigator.onLine) {
+       
+    //       window.location.replace("https://mundzir77.github.io/ssm4u-memory-games/index.html");
+          
+    //   } else {
+        
+    //     window.location.replace("https://mundzir77.github.io/ssm4u-memory-games/offline.html");
+    //   }
+    // }
 
-    // Check online status initially
-    checkOnlineStatus();
+    // // Check online status initially
+    // checkOnlineStatus();
 
-    // Listen for online/offline events
-    window.addEventListener('online', checkOnlineStatus);
-    window.addEventListener('offline', checkOnlineStatus);
+    // // Listen for online/offline events
+    // window.addEventListener('online', checkOnlineStatus);
+    // window.addEventListener('offline', checkOnlineStatus);
 </script>
 </body>
 
