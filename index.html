@@ -278,6 +278,28 @@
     <script src="js/theme.init.js"></script>
     <script src="js/script.js"></script>
 
+    <script>
+    function checkOnlineStatus() {
+
+        
+        
+      if (navigator.onLine) {
+       
+          window.location.replace("https://mundzir77.github.io/ssm4u-memory-games/index.html");
+          
+      } else {
+        
+        window.location.replace("https://mundzir77.github.io/ssm4u-memory-games/offline.html");
+      }
+    }
+
+    // Check online status initially
+    checkOnlineStatus();
+
+    // Listen for online/offline events
+    window.addEventListener('online', checkOnlineStatus);
+    window.addEventListener('offline', checkOnlineStatus);
+</script>
 </body>
 
 </html>
