@@ -135,7 +135,7 @@
                       
                         <div class="col-md-8 order-2 order-md-1 align-self-center p-static">
                             <h1 class="font-weight-extra-bold text-8 "
-                                >Offline Mode
+                                >PROD
                             </h1>
                         </div>
                         
@@ -145,125 +145,7 @@
             </section>
 
 
-          <section class="http-error">
-            <div class="row justify-content-center">
-                <div class="col-md-6 text-center">
-                    <div class="http-error-main" style="padding: 60px;">
-                      <img src="img/ssm4u/nointernet.png" style="height: 100px;" >
-                        <h2 style="font-size: 50px; margin-bottom: 0px !important">You're offline</h2>
-                        <p>Please check your internet connection <br>or pay your bill :p.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 mt-6 mt-md-0">
-                  <div class="wrapper">
-                    <ul class="cards">
-                      <div class="details">
-                        <p class="time ptext">Time: <span><b>20</b>s</span></p>
-                        <p class="flips ptext">Flips: <span><b>0</b></span></p>
-                        <button>Refresh</button>
-                      </div>
-                      <li class="card">
-                        <div class="view front-view">
-                          <img src="img/ssm4u/qmark.svg" style="height: 100px;"   alt="icon">
-                        </div>
-                        <div class="view back-view">
-                          <img src="img/ssm4u/img-1.png" alt="card-img">
-                        </div>
-                      </li>
-                      <li class="card">
-                        <div class="view front-view">
-                          <img src="img/ssm4u/qmark.svg"width="100px" height="50px" alt="icon">
-                        </div>
-                        <div class="view back-view">
-                          <img src="img/ssm4u/img-2.png" alt="card-img">
-                        </div>
-                      </li>
-                      <li class="card">
-                        <div class="view front-view">
-                          <img src="img/ssm4u/qmark.svg" alt="icon">
-                        </div>
-                        <div class="view back-view">
-                          <img src="img/ssm4u/img-3.png" alt="card-img">
-                        </div>
-                      </li>
-                      <li class="card">
-                        <div class="view front-view">
-                          <img src="img/ssm4u/qmark.svg" alt="icon">
-                        </div>
-                        <div class="view back-view">
-                          <img src="img/ssm4u/img-4.png" alt="card-img">
-                        </div>
-                      </li>
-                      <li class="card">
-                        <div class="view front-view">
-                          <img src="img/ssm4u/qmark.svg" alt="icon">
-                        </div>
-                        <div class="view back-view">
-                          <img src="img/ssm4u/img-5.png" alt="card-img">
-                        </div>
-                      </li>
-                      <li class="card">
-                        <div class="view front-view">
-                          <img src="img/ssm4u/qmark.svg" alt="icon">
-                        </div>
-                        <div class="view back-view">
-                          <img src="img/ssm4u/img-6.png" alt="card-img">
-                        </div>
-                      </li>
-                      <li class="card">
-                        <div class="view front-view">
-                          <img src="img/ssm4u/qmark.svg" alt="icon">
-                        </div>
-                        <div class="view back-view">
-                          <img src="img/ssm4u/img-5.png" alt="card-img">
-                        </div>
-                      </li>
-                      <li class="card">
-                        <div class="view front-view">
-                          <img src="img/ssm4u/qmark.svg" alt="icon">
-                        </div>
-                        <div class="view back-view">
-                          <img src="img/ssm4u/img-6.png" alt="card-img">
-                        </div>
-                      </li>
-                      <li class="card">
-                        <div class="view front-view">
-                          <img src="img/ssm4u/qmark.svg" alt="icon">
-                        </div>
-                        <div class="view back-view">
-                          <img src="img/ssm4u/img-1.png" alt="card-img">
-                        </div>
-                      </li>
-                      <li class="card">
-                        <div class="view front-view">
-                          <img src="img/ssm4u/qmark.svg" alt="icon">
-                        </div>
-                        <div class="view back-view">
-                          <img src="img/ssm4u/img-2.png" alt="card-img">
-                        </div>
-                      </li>
-                      <li class="card">
-                        <div class="view front-view">
-                          <img src="img/ssm4u/qmark.svg" alt="icon">
-                        </div>
-                        <div class="view back-view">
-                          <img src="img/ssm4u/img-3.png" alt="card-img">
-                        </div>
-                      </li>
-                      <li class="card">
-                        <div class="view front-view">
-                          <img src="img/ssm4u/qmark.svg" alt="icon">
-                        </div>
-                        <div class="view back-view">
-                          <img src="img/ssm4u/img-4.png" alt="card-img">
-                        </div>
-                      </li>
-                     
-                    </ul>
-                  </div>
-                </div>
-            </div>
-        </section>			
+         
 
            
 
@@ -412,7 +294,7 @@
 </html>
 <script>
   function checkOnlineStatus() {
-      if (navigator.ofline) {
+      if (navigator.offline) {
        alert('You are offline!');
        location.replace("https://mundzir77.github.io/ssm4u-memory-games/offline.html");
       }
