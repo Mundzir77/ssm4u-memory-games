@@ -5,10 +5,10 @@
          
             window.location.replace("https://mundzir77.github.io/ssm4u-memory-games/index.html");
          
-        } else {
+        } 
           
             window.location.replace("https://mundzir77.github.io/ssm4u-memory-games/offline.html");
-        }
+        
       }
   
       // Check online status initially
