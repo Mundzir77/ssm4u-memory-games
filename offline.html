@@ -10,6 +10,16 @@
     <title>SSM4U Memory</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="img/ssm4u/icon-192.png">
+    <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', ()=>{
+          navigator.serviceWorker
+          .register('https://mundzir77.github.io/ssm4u-memory-games/sw_cache_site.js')
+          .then(reg => console.log ('Service Worker: Registered'))
+          .catch(err => console.log (`Service Worker: Error: ${err}`));
+      })
+     }
+    </script>
 
     <style>
         
@@ -397,7 +407,7 @@
 
     <!-- Theme Initialization Files -->
     <script src="js/theme.init.js"></script>
-    <script src="js/script.js"></script>
+    <!-- <script src="js/script.js"></script> -->
 
 </body>
 
@@ -425,4 +435,6 @@ window.addEventListener("online", (event) => {
 //     window.addEventListener('online', checkOnlineStatus);
 //     window.addEventListener('offline', checkOnlineStatus);
 </script>
+
+
 
