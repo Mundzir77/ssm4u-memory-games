@@ -1,6 +1,7 @@
 {
   "name": "SSM4U Memory Card Game",
   "short_name": "SSM4UGame",
+  "start_url": "index.html",
   "icons": [
     {
       "src": "img/ssm4u/icon-192.png",
@@ -21,7 +22,6 @@
   ],
   "theme_color": "#FFFFFF",
   "background_color": "#FFFFFF",
-  "start_url": "/ssm4u-memory-game/",
   "display": "standalone",
-  "orientation": "portrait"
+  "orientation": "portrait-primary"
 }
