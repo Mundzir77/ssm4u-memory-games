@@ -1,0 +1,27 @@
+{
+  "name": "SSM4U Memory Card Game",
+  "short_name": "SSM4UGame",
+  "icons": [
+    {
+      "src": "./ssm4u/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./ssm4u/icon-384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "./ssm4u/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "start_url": "/ssm4u-memory-game/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
