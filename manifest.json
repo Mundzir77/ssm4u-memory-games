@@ -3,18 +3,18 @@
   "short_name": "SSM4UGame",
   "icons": [
     {
-      "src": "./ssm4u/icon-192.png",
+      "src": "././ssm4u/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "./ssm4u/icon-384.png",
+      "src": "././ssm4u/icon-384.png",
       "sizes": "384x384",
       "type": "image/png"
     },
     {
-      "src": "./ssm4u/icon-512.png",
+      "src": "././ssm4u/icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
