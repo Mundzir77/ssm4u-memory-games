@@ -2,12 +2,13 @@
   "name": "SSM4U Memory Card Game",
   "short_name": "SSM4UGame",
   "start_url": "index.html",
+  "description": "Game santai2.",
   "icons": [
     {
       "src": "img/ssm4u/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "maskable"
     },
     {
       "src": "img/ssm4u/icon-384.png",
