@@ -105,7 +105,7 @@ cards.forEach(card => {
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', ()=>{
         navigator.serviceWorker
-        .register('https://mundzir77.github.io/ssm4u-memory-games/sw_cache_site.js')
+        .register('https://mundzir77.github.io/ssm4u-memory-games/sw_cached_pages.js')
         .then(reg => console.log ('Service Worker: Registered'))
         .catch(err => console.log (`Service Worker: Error: ${err}`));
     })
